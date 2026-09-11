@@ -65,11 +65,11 @@ const TABS: TabKey[] = [
 export const Route = createFileRoute("/wedding-menu")({
   head: () => ({
     meta: [
-      { title: "Wedding Menu — Al Najaf Catering" },
+      { title: "Wedding Menu — LOGO Catering" },
       {
         name: "description",
         content:
-          "Discover Al Najaf's luxury wedding menu — starters, mains, desserts and beverages crafted for unforgettable celebrations.",
+          "Discover LOGO's luxury wedding menu — starters, mains, desserts and beverages crafted for unforgettable celebrations.",
       },
     ],
   }),

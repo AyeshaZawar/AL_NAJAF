@@ -2,7 +2,7 @@
 
 1. Create a Supabase project at https://app.supabase.com.
 
-2. In the SQL editor, run the SQL in `database.sql` to create the `contact_submissions` table.
+2. In the SQL editor, run `database.sql`, then run `supabase_sql/profiles_and_rls.sql`. The second script creates the `profiles` and `app_settings` tables and their RLS policies required for admin signup and the admin panel.
 
 3. In the Project Settings → API, copy `URL` and `anon` key. Add them to your Vercel environment variables as `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`.
 

@@ -15,10 +15,10 @@ import Footer from "@/components/site/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Al Najaf — Luxury Catering & Memorable Events" },
-      { name: "description", content: "Premium catering and event styling in Al Najaf. Weddings, corporate, and social events crafted with refined hospitality since 2011." },
-      { property: "og:title", content: "Al Najaf — Luxury Catering & Memorable Events" },
-      { property: "og:description", content: "Premium catering and event styling in Al Najaf." },
+      { title: "LOGO — Luxury Catering & Memorable Events" },
+      { name: "description", content: "Premium catering and event styling by LOGO. Weddings, corporate, and social events crafted with refined hospitality since 2011." },
+      { property: "og:title", content: "LOGO — Luxury Catering & Memorable Events" },
+      { property: "og:description", content: "Premium catering and event styling by LOGO." },
     ],
   }),
   component: Index,

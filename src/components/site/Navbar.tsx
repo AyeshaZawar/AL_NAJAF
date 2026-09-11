@@ -56,8 +56,8 @@ export default function Navbar() {
           LOGO
         </Link>
         <div className="hidden lg:flex items-center gap-7 flex-1 justify-end">
-          <a href="tel:+923343632414" className="flex items-center gap-2 text-[12px] tracking-wider hover:text-gold transition-colors duration-500">
-            <Phone className="w-4 h-4 text-gold" /> +92 334 3632414
+          <a href="tel:+923123456789" className="flex items-center gap-2 text-[12px] tracking-wider hover:text-gold transition-colors duration-500">
+            <Phone className="w-4 h-4 text-gold" /> 03123456789
           </a>
           <Link to={links[3].to} hash={links[3].hash} className="group inline-flex items-center gap-2 rounded-full bg-gold px-6 py-3 text-[11px] tracking-[0.26em] text-brown-deep font-semibold hover:bg-gold-bright transition-colors duration-500">
             GET A QUOTE
@@ -75,7 +75,7 @@ export default function Navbar() {
               {l.label}
             </Link>
           ))}
-          <a href="tel:+923343632414" className="flex items-center gap-2 text-xs tracking-wider"><Phone className="w-4 h-4 text-gold" /> +92 334 3632414</a>
+          <a href="tel:+923123456789" className="flex items-center gap-2 text-xs tracking-wider"><Phone className="w-4 h-4 text-gold" /> 03123456789</a>
           <a href="#contact" onClick={() => setOpen(false)} className="inline-flex items-center justify-center gap-2 rounded-full bg-gold px-5 py-3 text-xs tracking-[0.26em] text-brown-deep font-semibold w-fit">
             GET A QUOTE <ArrowRight className="w-3.5 h-3.5" />
           </a>

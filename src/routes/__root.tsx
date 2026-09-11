@@ -73,11 +73,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "alnajaf" },
-      { name: "description", content: "alnajaf" },
-      { name: "author", content: "alnajaf" },
-      { property: "og:title", content: "alnajaf" },
-      { property: "og:description", content: "alnajaf" },
+      { title: "LOGO" },
+      { name: "description", content: "LOGO" },
+      { name: "author", content: "LOGO" },
+      { property: "og:title", content: "LOGO" },
+      { property: "og:description", content: "LOGO" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
@@ -119,7 +119,7 @@ function RootComponent() {
     <QueryClientProvider client={queryClient}>
       <Outlet />
       <a
-        href="https://wa.me/923343632414"
+        href="https://wa.me/923123456789"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-lg hover:scale-110 transition"

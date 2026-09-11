@@ -13,7 +13,7 @@ export default function Footer() {
           {/* LEFT */}
           <div>
             <h1 className="font-serif text-[78px] md:text-[102px] leading-none text-[#D89B4D] tracking-[-2px] font-bold">
-              AL NAJAF
+              LOGO
             </h1>
 
             {/* SOCIAL ICONS */}
@@ -104,10 +104,10 @@ export default function Footer() {
                 Ana, Illinois 85486
               </p>
 
-              <p>support@example.com</p>
+              <p>abc@gmail.com</p>
 
               <p className="text-[#D89B4D] text-[18px] font-medium tracking-normal">
-                ++92 334 3632414
+                03123456789
               </p>
             </div>
           </div>
@@ -120,7 +120,7 @@ export default function Footer() {
         {/* BOTTOM SECTION */}
         <div className="flex justify-center items-center mt-6">
           <p className="text-[12px] text-[#F5EBDD]/80">
-            &copy; 2024 Al Najaf Catering. All rights reserved.
+            &copy; 2024 LOGO. All rights reserved.
           </p>
         </div>
 

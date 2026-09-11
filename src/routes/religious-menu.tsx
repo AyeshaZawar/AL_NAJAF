@@ -81,11 +81,11 @@ const TABS: TabKey[] = ["STARTERS", "MAINS COURSE", "DESSERTS", "BEVERAGES"];
 export const Route = createFileRoute("/religious-menu")({
   head: () => ({
     meta: [
-      { title: "Religious Menu— Al Najaf Catering" },
+      { title: "Religious Menu— LOGO Catering" },
       {
         name: "description",
         content:
-          "Discover Al Najaf's luxury Religious Menu— starters, mains, desserts and beverages crafted for unforgettable celebrations.",
+          "Discover LOGO's luxury Religious Menu— starters, mains, desserts and beverages crafted for unforgettable celebrations.",
       },
     ],
   }),

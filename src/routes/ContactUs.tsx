@@ -17,7 +17,7 @@ export const Route = createFileRoute("/ContactUs")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Contact — Al Najaf Luxury Catering" },
+      { title: "Contact — LOGO Luxury Catering" },
       {
         name: "description",
         content: "Premium catering for weddings, corporate events, and unforgettable celebrations.",
@@ -103,12 +103,12 @@ function ContactInfo() {
 
             <p className="text-[#C68A3B] text-[14px] font-medium flex gap-3 items-center">
               <Phone size={16} className="shrink-0" />
-              +92 334 3632414
+              03123456789
             </p>
 
             <p className="text-[#4B2E14]/80 text-[14px] flex gap-3 items-center">
               <Mail size={16} className="text-[#C68A3B] shrink-0" />
-              support@example.com
+              abc@gmail.com
             </p>
           </div>
         </motion.div>

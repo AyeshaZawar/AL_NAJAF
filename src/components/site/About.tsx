@@ -79,7 +79,7 @@ export default function About() {
             />
 
             <h2 className="relative font-serif text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-brown-deep max-w-5xl mx-auto leading-[1.02] tracking-[-0.01em] text-balance">
-              WE HAVE PROFESSIONAL CATERING TEAMS IN AL NAJAF
+              WE HAVE PROFESSIONAL CATERING TEAMS AT LOGO
             </h2>
           </div>
         </Reveal>
@@ -118,7 +118,7 @@ export default function About() {
             </h3>
 
             <p className="mt-7 text-sm leading-[1.85] text-brown/75">
-              A meeting or celebration is a unique and unforgettable event! In Al Najaf we have a
+              A meeting or celebration is a unique and unforgettable event! At LOGO we have a
               team of event planners, we take care of the design, creative and innovative work,
               planning, coordination and organization of all kinds of social and corporate events.
             </p>
