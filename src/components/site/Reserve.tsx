@@ -22,7 +22,7 @@ export default function Reserve() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    const { error } = await supabase.from("submissions").insert({
+    const { error } = await supabase.from("contact_submissions").insert({
       type: "reserve",
       name: form.name,
       phone: form.phone,

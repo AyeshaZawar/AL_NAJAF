@@ -1,6 +1,6 @@
 import { jsx, Fragment, jsxs } from "react/jsx-runtime";
 import { useState, useEffect } from "react";
-import { s as supabase } from "./supabase-BhL4S-_D.js";
+import { s as supabase } from "./supabase-B6LdVT4E.js";
 import "@supabase/supabase-js";
 function ProtectedAdminRoute({ children }) {
   const [loading, setLoading] = useState(true);
@@ -98,7 +98,7 @@ function Index() {
     const {
       data,
       error: error2
-    } = await supabase.from("submissions").select("*").order("created_at", {
+    } = await supabase.from("contact_submissions").select("*").order("created_at", {
       ascending: false
     });
     if (error2) {
@@ -127,6 +127,7 @@ function Index() {
     window.location.href = "/admin-login";
   };
   useEffect(() => {
+    fetchSubmissions();
     const loadAdmin = async () => {
       const {
         data

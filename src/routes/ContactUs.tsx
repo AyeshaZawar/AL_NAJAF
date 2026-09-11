@@ -183,7 +183,7 @@ function ContactForm() {
 
     // Insert into Supabase
     try {
-      const { error } = await supabase.from("submissions").insert({
+      const { error } = await supabase.from("contact_submissions").insert({
         type: "contact",
         name: form.name,
         email: form.email,

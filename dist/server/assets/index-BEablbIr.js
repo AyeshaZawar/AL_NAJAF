@@ -10,7 +10,7 @@ import { s as section2_1, b as bg$1 } from "./video-nXtd-USx.js";
 import { m as m1 } from "./menu-2-5Vf-wx5L.js";
 import { g as g2 } from "./menu-3-C2H4WEME.js";
 import { m as m4 } from "./menu-4-T5SFNQNt.js";
-import { s as supabase } from "./supabase-BhL4S-_D.js";
+import { s as supabase } from "./supabase-B6LdVT4E.js";
 import "@tanstack/react-router";
 import "@supabase/supabase-js";
 const bg = "/assets/hero-bg-CCNWGWFn.jpeg";
@@ -903,7 +903,7 @@ function Reserve() {
   });
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const { error } = await supabase.from("submissions").insert({
+    const { error } = await supabase.from("contact_submissions").insert({
       type: "reserve",
       name: form.name,
       phone: form.phone,
