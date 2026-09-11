@@ -125,7 +125,7 @@ const Route$9 = createFileRoute("/religious-menu")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$9, "component")
 });
-const $$splitComponentImporter$8 = () => import("./portal-84kx9-admin-panel-B1IpAL_r.js");
+const $$splitComponentImporter$8 = () => import("./portal-84kx9-admin-panel-XBBVlLu3.js");
 const Route$8 = createFileRoute("/portal-84kx9-admin-panel")({
   component: lazyRouteComponent($$splitComponentImporter$8, "component")
 });
@@ -141,23 +141,23 @@ const Route$7 = createFileRoute("/parties-menu")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$7, "component")
 });
-const $$splitComponentImporter$6 = () => import("./admin-signup-D8aHKmZy.js");
+const $$splitComponentImporter$6 = () => import("./admin-signup-DS7MgtBn.js");
 const Route$6 = createFileRoute("/admin-signup")({
   component: lazyRouteComponent($$splitComponentImporter$6, "component")
 });
-const $$splitComponentImporter$5 = () => import("./admin-reset-password-Dy387WRI.js");
+const $$splitComponentImporter$5 = () => import("./admin-reset-password-BCn5kbAg.js");
 const Route$5 = createFileRoute("/admin-reset-password")({
   component: lazyRouteComponent($$splitComponentImporter$5, "component")
 });
-const $$splitComponentImporter$4 = () => import("./admin-login-vMETat-e.js");
+const $$splitComponentImporter$4 = () => import("./admin-login-B0Gp2NRW.js");
 const Route$4 = createFileRoute("/admin-login")({
   component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-const $$splitComponentImporter$3 = () => import("./admin-forgot-password-G7X7lC23.js");
+const $$splitComponentImporter$3 = () => import("./admin-forgot-password-C9YcPLIa.js");
 const Route$3 = createFileRoute("/admin-forgot-password")({
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-const $$splitComponentImporter$2 = () => import("./ContactUs-Db_Yd09l.js");
+const $$splitComponentImporter$2 = () => import("./ContactUs-BivNlK8I.js");
 const Route$2 = createFileRoute("/ContactUs")({
   component: lazyRouteComponent($$splitComponentImporter$2, "component"),
   head: () => ({
@@ -173,7 +173,7 @@ const $$splitComponentImporter$1 = () => import("./AboutUs-BODt8JzP.js");
 const Route$1 = createFileRoute("/AboutUs")({
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-const $$splitComponentImporter = () => import("./index-CGCQEvnz.js");
+const $$splitComponentImporter = () => import("./index-2-MYusmo.js");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{

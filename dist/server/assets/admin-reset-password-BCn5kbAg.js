@@ -1,6 +1,6 @@
 import { jsx, jsxs } from "react/jsx-runtime";
 import { useState, useEffect } from "react";
-import { s as supabase } from "./supabase-CzlEHgCy.js";
+import { s as supabase } from "./supabase-BhL4S-_D.js";
 import "@supabase/supabase-js";
 function Index() {
   const [password, setPassword] = useState("");

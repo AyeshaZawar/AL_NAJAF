@@ -5,7 +5,7 @@ import { ChevronRight, MapPin, Phone, Mail, ArrowRight } from "lucide-react";
 import { a as aboutSmall, g as g1 } from "./weddings-D-4RebdB.js";
 import { s as section2, r as reserve } from "./reserve-COW_t4qc.js";
 import { useState } from "react";
-import { s as supabase } from "./supabase-CzlEHgCy.js";
+import { s as supabase } from "./supabase-BhL4S-_D.js";
 import "@tanstack/react-router";
 import "@supabase/supabase-js";
 function Hero() {

@@ -30,7 +30,7 @@ function Index() {
     setError("");
 
     const { data, error } = await supabase
-      .from("submissions")
+      .from("contact_submissions")
       .select("*")
       .order("created_at", { ascending: false });
 
@@ -66,6 +66,8 @@ function Index() {
   };
 
   useEffect(() => {
+    fetchSubmissions();
+
     const loadAdmin = async () => {
       const { data } = await supabase.auth.getSession();
       const userId = data.session?.user?.id;
